@@ -224,6 +224,10 @@ select:focus {
   margin-right: 50px;
 }
 
+.income__list {
+  margin-bottom: 20px;
+}
+
 .expenses {
   float: left;
   width: 475px;
