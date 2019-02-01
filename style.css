@@ -23,8 +23,18 @@ body {
   font-weight: 400;
 }
 
+input:focus,
+select:focus {
+  transition: .5s;
+}
+
 .right {
   float: right;
+}
+
+.addIcon {
+  fill: #28B9B5;
+  transition: .4s;
 }
 
 .red {
@@ -33,6 +43,15 @@ body {
 
 .red-focus:focus {
   border: 1px solid #FF5049 !important;
+}
+
+.red-svg-check {
+  fill: #ff5045;
+}
+
+.red-focus:focus,
+.red-svg-check {
+  transition: .4s
 }
 
 /**********************************************
