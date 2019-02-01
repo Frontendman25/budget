@@ -389,6 +389,23 @@ h2 {
   .add__description {
     width: 195px;
   }
+
+  .budget__income,
+  .budget__expenses {
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+
+  .budget__income,
+  .budget__expenses {
+    margin-left: auto;
+    margin-right: auto;
+    width: 290px;
+  }
 }
 
 @media only screen and (min-width: 576px) {
